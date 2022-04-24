@@ -27,6 +27,6 @@ $.addEventListener("DOMContentLoaded", () => {
     );
 
     console.log(response.data);
-    alert("Demande envoyée avec succès ✅ ");
+    alert("Demande envoyée avec succès et nous vous répondrons rapidement ✅ ");
   });
 });
