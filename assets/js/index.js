@@ -17,7 +17,7 @@ $.addEventListener("DOMContentLoaded", () => {
     console.log({ message: data });
 
     const response = await axios.post(
-      "https://tripadvisor-form-server.herokuapp.com/",
+      "https://tripadvisor-form-server.herokuapp.com/form",
       data
     );
 
