@@ -406,9 +406,25 @@ footer p img {
 
 /* section form */
 
+.form-display-none {
+  display: none;
+}
+
+.form-all {
+  display: block;
+}
+
+.message {
+  margin-top: 60px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .form {
-  margin-top: 15vh;
-  height: 90vh;
+  margin-top: 20px;
+  height: 40rem;
   background-color: #7359dc;
   border-radius: 13px;
   display: flex;
@@ -425,7 +441,7 @@ footer p img {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  box-shadow: 3px 4px 3px lightsalmon;
+  box-shadow: 3px 2px 2px lightsalmon;
 }
 
 #firstname,
@@ -596,3 +612,5 @@ footer p img {
     object-fit: cover;
   }
 }
+
+/* display for form */

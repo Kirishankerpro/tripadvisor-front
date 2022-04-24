@@ -3,6 +3,11 @@ const $ = document;
 $.addEventListener("DOMContentLoaded", () => {
   console.log("Page écouté");
 
+  $.querySelector(".connect").addEventListener("click", () => {
+    console.log("clique effectué sur le bouton connectez-vous");
+    $.querySelector(".form-display-none").classList.toggle("form-all");
+  });
+
   $.querySelector("#contact-form").addEventListener("submit", async (event) => {
     event.preventDefault();
 
