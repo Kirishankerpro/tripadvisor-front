@@ -16,7 +16,10 @@ $.addEventListener("DOMContentLoaded", () => {
 
     console.log({ message: data });
 
-    const response = await axios.post("http://localhost:3000/form", data);
+    const response = await axios.post(
+      "https://tripadvisor-form-server.herokuapp.com/",
+      data
+    );
 
     console.log(response.data);
     alert("Demande envoyée");
